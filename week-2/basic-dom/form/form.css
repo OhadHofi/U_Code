@@ -1,0 +1,49 @@
+#container {
+    margin:auto;
+    position: relative;
+    background-color: #1dc5d1;
+    width: 350px;
+    height: 180px;
+    padding: 30px;
+}
+
+.full-line{
+    width: 97%;
+}
+
+#desiredSalary-container {
+    display: inline-block;
+}
+
+#desiredSalary-input{
+    width: 120%;
+}
+
+#birthday-container {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+
+#btn {
+    position: absolute;
+    background-color: #3f10ac4a;
+    padding: 10px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+}
+
+#log {
+    position: absolute;
+    bottom: 15px;
+    color: red;
+}
+
+/* #welcome-user {
+    display: none;
+    margin: auto;
+    width: 360px;
+    height: 150px;
+    padding: 30px;
+} */

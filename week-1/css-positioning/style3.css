@@ -1,0 +1,21 @@
+#example1{
+    background-color: red;
+    height: 200px;
+    width: 300px;
+}
+
+#example2{
+    background-color: blue;
+    padding: 20px;
+}
+
+.example-div{
+    width: 100px;
+    height: 100px;
+}
+
+#parent-div{
+    background-color: green;
+    display: inline-block;
+    padding: 10px;
+}

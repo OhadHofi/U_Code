@@ -1,0 +1,60 @@
+#container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 3fr 1fr;
+    grid-template-areas: 
+    "s m"
+    "f f";
+    /* "h h h h h h"
+    "s m m m m m"
+    "s m m m m m"
+    "s m m m m m"
+    "s f f f f f"; */
+
+    /* "h h h h h h"
+    "f f s m m m"
+    "f f s m m m"
+    "f f s m m m"
+    "f f s m m m"; */
+
+    /* "m m m m m m"
+    "f f f s s h"
+    "f f f s s h"
+    "f f f s s h"
+    "f f f s s h"; */
+
+    
+    /* "h h f f m m"
+    "h h f f m m"
+    "h h f f m m"
+    "h h s s m m"
+    "h h s s m m"; */
+/* 
+    "h h f f m m"
+    "h h f f m m"
+    "h h . . m m"
+    "h h s s m m"
+    "h h s s m m"; */
+    grid-gap: 10px;
+}
+
+.head{
+    grid-area: h;
+    background-color: yellow;
+}
+
+.side-nav{
+    grid-area: s;
+    background-color: red;
+}
+
+.main{
+    grid-area: m;
+    background-color: green;
+}
+
+.foot{
+    grid-area: f;
+    background-color: grey;
+}

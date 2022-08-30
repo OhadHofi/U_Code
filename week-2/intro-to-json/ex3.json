@@ -1,0 +1,32 @@
+{
+    "naem": "cow",
+    "weigh": 
+    {
+        "number":750,
+        "WeightType": "kilograms"
+    },
+    "live":"cow",
+    "endangered":"cowshed",
+    "foods": [
+        {
+            "food":"grass",
+            "otherAnimalsThatEatIt":["Donkey",
+            "horse",
+            "sheep",
+            "goat"],
+            "consumptionPercentage": 60
+
+        },
+        {
+            "food":"straw",
+            "otherAnimalsThatEatIt":["Donkey",
+            "horse",
+            "sheep",
+            "goat"],
+            "consumptionPercentage": 40
+
+        }
+    ],
+    "delicious": 5
+
+}

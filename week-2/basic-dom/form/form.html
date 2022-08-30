@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="form.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="name-container">
+        <div>Name</div>
+        <input id="name-input" class="full-line" />
+      </div>
+
+      <div id="desiredSalary-container">
+        <div>Desired Salary</div>
+        <input type="number" id="desiredSalary-input" />
+      </div>
+
+      <div id="birthday-container">
+        <div>Birthday</div>
+        <input type="date" id="birthday-input" />
+      </div>
+
+      <div id="phone-container">
+        <div>Phone</div>
+        <input type="number" id="phone-input" class="full-line" />
+      </div>
+
+      <div id="log"></div>
+      <bottun id="btn" onclick="validate()">SUBMIT</bottun>
+    </div>
+    <div id="welcome"></div>
+    <script src="form.js"></script>
+  </body>
+</html>
